@@ -19,7 +19,5 @@ oda += n*m*0.5 # n and m have a 1/2 chance of producing oda
 odds = oda / perms
 print odds
 
-# This code could be written on one line, but there were a lot of factors to juggle,
+# Lines 11-17 could have been written on one line, but there were a lot of factors to juggle,
 # and I feel writing it this way makes it both easier to read and to check for mistakes.
-# Lines 14 and 16 may seem redundant at a glance, but I feel like separating them
-# makes it easier to see what's going on.

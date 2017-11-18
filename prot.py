@@ -14,8 +14,7 @@ codonTable = {'UUU' : 'F', 'CUU' : 'L', 'AUU' : 'I', 'GUU' : 'V', 'UUC' : 'F', '
 sample = input("sample = ")
 result = ""
 
-n = 3
-sample = [sample[i:i+n] for i in range(0, len(sample), n)] # split the sample up into a list of codons
+sample = [sample[i:i+3] for i in range(0, len(sample), 3)] # split the sample up into a list of codons
 
 # translate the codons into a protein string
 for codon in sample:

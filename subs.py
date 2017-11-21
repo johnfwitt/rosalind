@@ -7,7 +7,7 @@ stop = len(substring) # create a search space the same size as the substring
 results = []
 
 def SubstringSearch(sample,substring,start,stop,results):
-    if sample[start:stop] == substring: # if the search space  contains the substring
+    if sample[start:stop] == substring: # if the search space contains the substring
     	results.append(str(start + 1)) # add the location of the first letter to the results
     start += 1
     stop += 1 # move the search space one letter to the right
